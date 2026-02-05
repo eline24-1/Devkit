@@ -1,0 +1,125 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Segoe UI", sans-serif;
+}
+
+body {
+  background: linear-gradient(180deg, #eef2ff, #e0e7ff);
+  min-height: 100vh;
+}
+
+/* Navbar */
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 30px 80px;
+}
+
+.logo {
+  font-size: 24px;
+  font-weight: bold;
+  color: #4371d5;
+}
+
+.navbar nav a {
+  margin-left: 25px;
+  text-decoration: none;
+  color: #6b7280;
+  font-size: 15px;
+}
+
+/* Hero */
+.hero {
+  background: white;
+  margin: 40px auto;
+  padding: 80px;
+  max-width: 1100px;
+  border-radius: 20px;
+  display: flex;
+  align-items: center;
+  gap: 50px;
+  justify-content: space-between;
+}
+.hero-image {
+    margin-right: auto;
+    background: ;
+}
+
+
+.hero-text h1 {
+  font-size: 42px;
+  margin-bottom: 20px;
+  color: #111827;
+}
+
+.hero-text span {
+  color: blue;  important;
+}
+
+.hero-text p {
+  color: #6b7280;
+  line-height: 1.6;
+  /* background: #4371d5; */
+}
+
+/* Buttons */
+.buttons {
+  display: flex;
+  gap: 18px;
+}
+
+.btn {
+  padding: 12px 22px;
+  border-radius: 8px;
+  text-decoration: none;
+  font-size: 14px;
+}
+
+.primary {
+  background: #2563eb;
+  color: white;
+}
+
+.secondary {
+  background: #eef2ff;
+    color: #5559de !important;
+    padding: 8px 22px;
+    border-radius: 20px;
+    font-weight: 600;
+}
+.btn-secondary: :hover{
+    background-color: #2563eb;
+}
+
+/* Image */
+.hero-image  img {
+  display: block;
+  max-width: 450px;
+  width: 100%;
+  margin-right: auto;
+}
+
+
+.btn {
+  display: inline-block;
+  padding: 14px 26px;
+  border-radius: 12px;          /* arrondi comme sur l’image */
+  font-size: 15px;
+  font-weight: 500;
+  text-decoration: none;
+  transition: all 0.3s ease;
+}
+
+/* Bouton bleu */
+.btn-primary {
+  background: #2563eb; important;
+  color: #fff;
+  box-shadow: 0 10px 25px rgba(37, 99, 235, 0.25);
+}.container{
+    display: flex;
+    
+    
+}
